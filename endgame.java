@@ -19,7 +19,7 @@ public class endgame extends AppCompatActivity {
         setContentView(R.layout.activity_endgame);
         this.score= getIntent().getIntExtra("puntaje",0);
         this.correctas= getIntent().getIntExtra("correctas",0);
-        
+
         this.incorrectas= getIntent().getIntExtra("incorrectas",0);
 
         sc= (TextView) findViewById(R.id.puntajefinal);
